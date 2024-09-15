@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root{
+    --solid:#CCD4FF;
+    --days:#F30761;
+    --pro:#FFE4E4;
+    --h1-pro:#082EF5;
+    --h1-left:#1E1F20;
+    --tab:#F2F2F2;
+    --white:#FFFFFF;
+    --h1-right:#4D5055;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section{
+    width: 1216px;
+    height: 2333px;
+    padding: 0 112px 0 112px;
+}
+
+.body-top{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    border-bottom: 2px solid var(--solid);
+    height: 659px;
+    width: 1216px;
+    
+}
+
+.body-top .images{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 719px;
+    height: 579px;
+    padding: 20px 0 60px 0;
+    gap:60px;
+}
+
+.images .breadcrumbs{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 5px;
+    width: 167px;
+    height: 32px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.breadcrumbs a{
+    text-decoration: none;
+}
+
+.images .content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-left .date{
+    display: flex;
+    gap: 7px;
+    width: 135px;
+    height: 32px;
+    align-items: center;
+    color: var(--h1-left);
+    
+}
+
+.content-left .content-header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-left .group{
+    width: 719px;
+    height: 335px;
+    display: flex;
+    gap: 20px;
+    position: a;
+}
+
+.group .img{
+    display: flex;
+    flex-direction: column;
+    gap: 16.5px;
+    width: 121.28px;
+    height: 305px;
+}
+
+.dots {
+    width: 101.95px;
+    height: 12px;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    bottom: 60px;
+
+}
+
+.content-header h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36.16px;
+    font-family:"Dela Gothic One", sans-serif;
+    margin: 0;
+    color: var(--h1-left);
+}
+
+.body-bottom{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    width: 1215px;
+    height: 1674px;
+    top: 660px;
+    border-bottom: 2px solid var(--solid);
+}
+
+.body-bottom .content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 719px;
+    height: 1554px;
+    padding: 60px 0 60px 0;
+}
+
+.content .content-body{
+    display: flex;
+    flex-direction: column;
+    width: 719px;
+    height: 1554px;
+    gap: 40px;
+}
+
+.content-body .tab{
+    width: 279px;
+    height: 54px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--tab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 25px;
+    gap: 6px;
+    
+}
+
+.content-body .text{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 719px;
+    height: 916px;
+}
+
+.tab button{
+    text-align: center;
+    background-color: var(--white);
+    border: 0;
+    border-radius: 26px;
+    padding: 15px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Dela Gothic One", sans-serif;
+    margin: 0;
+    color: var(--h1-left);
+}
+
+.text p{
+    margin: 0;
+    font-size: 15.6px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24.45px;
+    font-weight: 400
+}
+
+.content-body .content-card{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 719px;
+    height: 504px;
+}
+
+.content-card h1{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36.16px;
+    color: var(--h1-left);
+    margin: 0;
+}
+
+.content-card .card{
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    width: 719px;
+    height: 380px;
+    border-radius:25px ;
+    border: 2px solid var(--solid);
+    padding: 30px 0 30px 0;
+}
+
+.card .un-card{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 0 30px 0 30px;
+    width: 659px;
+    height: 380px;
+}
+
+.un-card .list-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 659px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-top .inf-top{
+    position: absolute;
+    width: 457px;
+    height: 659px;
+    right: 0;
+}
+
+.info-top .content-right{
+    display: flex;
+    gap: 28px;
+    width: 454px;
+    height: 659px;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid var(--solid);
+    border-left: 2px solid var(--solid);
+}
+
+.content-right .content-frame{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 66px 0 22px 0;
+    width: 401px;
+    height: 571px;
+    justify-content: center;
+}
+
+.content-frame h1{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--h1-right);
+}
+
+.content-frame .donate-notice{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 401px;
+    height: 345px;
+}
+
+.donate-notice .card-donate{
+    display: flex;
+    gap: 25px;
+    padding: 0 0 48px 0;
+    width: 401px;
+    height: 229px;
+    flex-direction: column;
+    border: 2px solid var(--solid);
+    border-radius: 20px;
+    
+}
+
+.card-donate .content-donate{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 353px;
+    height: 146px;
+    padding: 0 24px 0 24px;
+}
+
+.content-donate li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.card-donate .content-view{
+    padding: 5px 24px 0px 24px;
+    border-top: 2px solid var(--solid);
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+
+.content-view .slot{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-view .avatar{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img:nth-child(4){
+    position: absolute;
+    right: 20px;
+}
+
+.avatar img:nth-child(3){
+    position: absolute;
+    right: 40px;
+}
+
+.avatar img:nth-child(2){
+    position: absolute;
+    right: 60px;
+}
+
+.avatar img:nth-child(1){
+    position: absolute;
+    right: 80px;
+}
+
+.donate-notice button{
+    display: flex;
+    padding: 12px 20px 12px 20px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--days);
+    color: var(--white);
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.body-bottom .info-bottom{
+    width: 457px;
+    height: 1674px;
+    display: flex;
+    gap: 28px;
+    border-right: 2px solid var(--solid);
+    border-left: 2px solid var(--solid);
+    justify-content: center;
+}
+
+.info-bottom .content-bottom{
+    padding: 60px 0 0 0;
+    width: 401px;
+    display: flex;
+    flex-direction: column;
+    height: 614px;
+    gap: 50px;
+}
+
+.content-bottom .card-bottom{
+    display: flex;
+    gap: 24px;
+    width: 401px;
+    height: 544px;
+    flex-direction: column;
+}
+
+.content-bottom > h1{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4D5055;
+}
+
+.card-bottom .two-card{
+    padding: 24px 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--solid);
+    border-radius: 20px;
+}
+
+.two-card .programme-card{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 24px 0 24px;
+    width: 353px;
+    height: 129px;
+}
+
+.programme-card .add-programme{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    position: relative;
+}
+
+.programme-card h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    margin: 0;
+    color: var(--h1-pro);
+}
+
+.add-programme .days-programme{
+    display: flex;
+    gap: 90px;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.content-viewBottom .slot{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-viewBottom .avatar{
+    display: flex;
+    align-items: center;
+}
+
+.days-programme .days{
+    display: flex;
+    padding: 4px 12px 4px 12px;
+    width: 121px;
+    height: 36px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pro);
+    color: var(--days);
+    
+}
+
+.two-card .content-viewBottom{
+    padding: 12px 24px 0 24px;
+    border-top: 2px solid var(--solid);
+    display: flex;
+    gap: 24px;
+    height: 65px;
+    position: relative;
+}
